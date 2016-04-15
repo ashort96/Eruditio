@@ -1,0 +1,67 @@
+/* Copyright 2014 T20LABS All Rights Reserved. Eruditio is an advanced scholarship search engine. */
+/*////////////////////////// home_style.css \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* Nav Bar at the top of the page */
+#nav-bar {
+    border-radius: 0px;
+    background-color: #EAEAEA;
+}
+
+/* "Eruditio" portion of Nav Bar */
+#navbar-logo, .word-logo {
+    color: #19A347;
+}
+
+/* Allows nav bar to not extend downward due to block element */
+#navbar-logo {
+	margin-bottom: 0px;
+}
+
+/* Overiding Bootstrap to change default link active color */
+.navbar-default .navbar-nav > .active > a {
+    background-color: #D6D6D6;
+}
+
+/* Holds jumbotron */
+#jumbotron-contatiner {
+	margin-right: 200px;
+	margin-left: 200px;
+  padding-top: 0px;
+}
+
+/* Holds content in jumbotron */
+#jumbotron {
+	border-radius: 10px;
+	padding-top: 0px;
+}
+
+/*Text at beggining of form */
+#info-text {
+	 text-align: center;
+	 margin-bottom: 30px;
+}
+
+.radio-text {
+	font-size: 20px;
+}
+
+/* Large button that takes the user to the search page */
+#search-button {
+	background-color: #19A347;
+	border-color: #19A347;
+	font-size: 30px;
+}
+
+
+
+/*Disable the spinner for webkit browsers*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/*Disable the spinner for Firefox browsers*/
+input[type=number] {
+	-moz-appearance: textfield;
+}

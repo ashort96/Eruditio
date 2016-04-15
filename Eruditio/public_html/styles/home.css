@@ -1,0 +1,79 @@
+/* Copyright 2014 T20LABS All Rights Reserved. Eruditio is an advanced scholarship search engine. */
+/*////////////////////////// home_style.css \\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* Holds the jumbotron */
+#jumbotron-container {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 0px;
+}
+
+/* Gray background behind welcome text */
+#jumbotron {
+	border-radius: 10px;
+}
+
+/* Welcome text in jumbotron */
+#welcome-text {
+	text-align: center;
+	margin-top: 0px;
+}
+
+/* Holds the Search button */
+#start-button-container {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+/* Large button that takes the user to the search page */
+#start-search-button {
+	background-color: #19A347;
+	border-color: #19A347;
+}
+
+/* Nav Bar at the top of the page */
+#nav-bar {
+    border-radius: 0px;
+    background-color: #EAEAEA;
+}
+
+/* "Eruditio" portion of Nav Bar */
+#navbar-logo, .word-logo {
+    color: #19A347;
+}
+
+/* Allows nav bar to not extend downward due to block element */
+#navbar-logo {
+	margin-bottom: 0px;
+}
+
+/* Holds the text at the bottom of the page */
+#bottom-bar-container {
+	position: relative;
+	text-align: center;
+	margin-top: 75px;
+}
+
+/* Holds the text about Eruditio */
+#about-text-container {
+	margin-left: 190px;
+	margin-right: 190px;
+	margin-top: 65px;
+}
+
+/* The "What is Eruditio?" text */
+#about-text-header {
+	text-align: center;
+}
+
+/* The text that describes Eruditio and its features */
+#about-text {
+	text-align: center;
+	font-size: 20px;
+}
+
+/* Overiding Bootstrap to change default link active color */
+.navbar-default .navbar-nav > .active > a {
+    background-color: #D6D6D6;
+}

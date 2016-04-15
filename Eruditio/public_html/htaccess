@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "CodeTN06"
+AuthBasicProvider file
+AuthUserFile /export/home/students/CodeTN/CodeTN06/.htpasswd
+Require valid-user

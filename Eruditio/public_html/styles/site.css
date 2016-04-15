@@ -1,0 +1,326 @@
+/* CUSTOM FONTS */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+/* STYLES */
+
+/*Disable the spinner for webkit browsers*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Disable the spinner for Firefox browsers*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+html {
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0px;
+}
+
+img {
+        border-color: black;
+        border-width: 3px;
+}
+
+p,h1,h2,h3,div,li,button,input, label, small, span {
+        font-family: "Open Sans", "Raleway";
+}
+
+hr {
+  margin: 40px 0;
+}
+
+.navbar {
+        border-radius: 0px;
+        margin-bottom: 0px;
+        border: none;
+        width: 100%;
+}
+
+.navbar-brand {
+  margin-bottom: 0px;
+}
+
+/* Changes background color of Navbar at top */
+.navbar-default {
+    background-color: #42bd41;
+    border-color: #E7E7E7;
+}
+
+/* Changes color of text in Navbar */
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+/* Changes color of Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* Changes color of Navbar links when hovered over */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #259b24;
+    -webkit-transition: background .5s ease-in-out;
+    transition-duration: background .5s all ease-in-out;
+}
+
+/* Changes color of Navbar links when active */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #72d572;
+}
+
+/* Changes color of Navbar links when hovered over */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+.searchhead {
+  font-size: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /*color: white;*/
+}
+
+.search-button {
+        background-color: #616161;
+        color: white;
+}
+
+#search-button  {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 20px;
+}
+
+.search_container_desktop {
+  width: 60%;
+}
+
+.search_container_mobile {
+	width: 90%;
+}
+
+.column-text {
+        font-size: 20px;
+        margin-bottom: 3%;
+        text-align: left;
+}
+
+.intro-text {
+        font-size: 20px;
+        margin-bottom: 3%;
+        text-align: center;
+}
+
+.info-text {
+        padding-left: 7%;
+        padding-right: 7%;
+}
+
+.row {
+	margin-bottom: 3%;
+}
+
+.aboutcontainer {
+  width: 97%;
+  margin-left: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-info {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 23px;
+}
+
+.about-header {
+  font-size: 50px;
+}
+
+.about_name {
+  font-size: 40px;
+}
+
+.about_img {
+  width: 240px;
+  height: 240px;
+}
+
+.inline {
+  display: inline;
+}
+
+.font_35 {
+  font-size: 35px;
+}
+
+.index_img {
+  width: 140px;
+  height: 140px;
+}
+
+.index_h2 {
+  font-size: 40px;
+}
+
+#jumbotron {
+  padding-top: 0px;
+}
+
+#index-header {
+  font-size: 70px;
+}
+
+#index-text {
+  font-size: 45px;
+}
+
+.device-picture {
+  margin-bottom: 3%;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input,
+textarea {
+  padding: 10px;
+  width: 100%;
+  box-sizing:border-box;
+}
+
+label input,
+label textarea {
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input [type="submit"],
+button {
+  width: auto;
+}
+
+.contact {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid #eee;
+        padding: 30px 20px;
+        box-sizing:border-box;
+        text-align: center;
+        margin-top: 3%;
+        border-radius: 10px;
+}
+
+.panel_contact {
+  border: 1px solid #ddd;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.form-label {
+        font-weight: 300;
+        font-size: 35px;
+}
+
+#message {
+        font-size: 20px;
+}
+
+.social-container {
+        margin-top: 3%;
+}
+
+.social-header {
+        font-size: 50px;
+        margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+        .contact {
+                width: 90%;
+        }
+}
+
+textarea {
+   resize: none;
+}
+
+.results-container {
+  margin-top: 3%
+  width: 70%
+}
+
+.results-panel {
+  witdh: 70%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.results-warning {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+}
+
+.results-warning-text {
+  font-size: 20px
+}
+
+.results-warning-search {
+  margin-top: 2%
+}
+
+.results-moreinfo {
+  margin-bottom: 2%
+}
+
+.results-results {
+  font-size: 18px
+}
+
+.featurette-container {
+        margin-top: 5%;
+}
+
+th {
+        text-align: center;
+}
+
+table {
+        font-size: 18px;
+}
+strong {
+        font-weight: bold;
+}
